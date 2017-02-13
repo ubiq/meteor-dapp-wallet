@@ -2,8 +2,8 @@
     {{#with transaction}}
         <h1>
             {{i18n "wallet.transactions.transactionInfoTitle"}}
-            {{#if $eq ($.Session.get "network") "main"}} 
-                <a href="http://etherscan.io/tx/{{transactionHash}}" target="_blank" style="font-size: 0.4em;">{{transactionHash}}</a>
+            {{#if $eq ($.Session.get "network") "main"}}
+                <a href="https://ubiqscan.io/en/tx/{{transactionHash}}" target="_blank" style="font-size: 0.4em;">{{transactionHash}}</a>
             {{else}}
                 {{#if $eq ($.Session.get "network") "test"}}
                     <a href="http://testnet.etherscan.io/tx/{{transactionHash}}" target="_blank" style="font-size: 0.4em;">{{transactionHash}}</a>
@@ -28,7 +28,7 @@
 
         <table class="dapp-zebra">
             <!-- <thead>
-                
+
             </thead> -->
             <tbody>
                 <tr>
@@ -41,7 +41,7 @@
                             {{#if $neq unit 'ether'}}
                                 <br>
                                 <small>
-                                    ({{dapp_formatBalance value "0,0.00[000000] UNIT" "ether"}})
+                                    ({{dapp_formatBalance value "0,0.00[000000] " "ether"}} UBQ)
                                 </small>
                             {{/if}}
                         {{/if}}
@@ -79,7 +79,7 @@
                     <tr>
                         <td>{{i18n "wallet.transactions.block"}}</td>
                         <td>
-                           {{#if $eq ($.Session.get "network") "main"}} 
+                           {{#if $eq ($.Session.get "network") "main"}}
                             <a href="http://etherscan.io/block/{{blockHash}}" title="{{blockHash}}" target="_blank" class="dapp-shorten-text">
                                 {{blockNumber}}
                                 <br>
