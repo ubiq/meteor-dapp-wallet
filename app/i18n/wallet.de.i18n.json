@@ -23,8 +23,8 @@
             "texts": {
                 "note": "Notiz",
                 "balance": "Kontostand",
-                "connectionErrorMist": "Verbindung konnte nicht hergestellt werden. Bitte starten Sie Geth mit folgendem Kommando:<br><br><small><code>__node__</code><br><br>Stellen Sie sicher, dass Sie Ihren IPC Pfad zum einen Standardpfad festgelegt haben, wenn Sie einen anderen <code>datadir</code> verwenden, z.B. <br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/Ethereum/geth.ipc</code><br>oder<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.ethereum/geth.ipc</code>. <br><br>Alternative Option: <code>--unlock &lt;yourAccount&gt;.</code></small>",
-                "connectionErrorBrowser": "Verbindung konnte nicht hergestellt werden. Bitte starten Sie Geth mit den folgenden Optionen:<br><br><small><code>__node__</code><br><br>Alternative Optionen: <code>--unlock &lt;yourAccount&gt;.</code></small>",
+                "connectionErrorMist": "Verbindung konnte nicht hergestellt werden. Bitte starten Sie Gubiq mit folgendem Kommando:<br><br><small><code>__node__</code><br><br>Stellen Sie sicher, dass Sie Ihren IPC Pfad zum einen Standardpfad festgelegt haben, wenn Sie einen anderen <code>datadir</code> verwenden, z.B. <br><code>gubiq --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/Ubiq/gubiq.ipc</code><br>oder<br><code>gubiq --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.ubiq/gubiq.ipc</code>. <br><br>Alternative Option: <code>--unlock &lt;yourAccount&gt;.</code></small>",
+                "connectionErrorBrowser": "Verbindung konnte nicht hergestellt werden. Bitte starten Sie Gubiq mit den folgenden Optionen:<br><br><small><code>__node__</code><br><br>Alternative Optionen: <code>--unlock &lt;yourAccount&gt;.</code></small>",
                 "pendingConfirmationsBadge": "Ausstehende Bestätigung!",
                 "nodeSyncing": "__blockDiff__ ausstehende Blöcke",
                 "blockReceived": "Neuen Block empfangen",
@@ -37,7 +37,7 @@
                 }
             },
             "error": {
-                "wrongChain": "Sie folgen nicht der Hauptblockchain, bitte starten Sie die Ethereum Wallet App neu!"
+                "wrongChain": "Sie folgen nicht der Hauptblockchain, bitte starten Sie die Ubiq Wallet App neu!"
             },
             "warnings": {
                 "txOriginVulnerabilityWallet": "Diese intelligente Vertrag Geldbörse hat veraltete Code und unterliegt Phishing-Attacken. ",
@@ -88,7 +88,7 @@
             "owners": "Eigentümer",
             "walletsDescription": "Verträge werden auf der Blockchain gespeichert und dienen der Verwaltung von Ether. Ein Vertrag kann mehrere Konten als Eigentümer haben. Verträge zeigen im Gegensatz zu Konten immer eine vollständige Transaktionshistorie.",
             "walletsDescriptionNotEnoughFunds": "Es wird mindestens 1 Ether benötigt, um komplexe Verträge zu erstellen.",
-            "accountsDescription": "Konten können Ether, Ethereum-basierte Token oder Coins enthalten. Darüber hinaus können Konten Verträge kontrollieren. Im Gegensatz zu Wallets können Konten keine einkommenden Transaktionen anzeigen.",
+            "accountsDescription": "Konten können Ether, Ubiq-basierte Token oder Coins enthalten. Darüber hinaus können Konten Verträge kontrollieren. Im Gegensatz zu Wallets können Konten keine einkommenden Transaktionen anzeigen.",
             "buttons": {
                 "deposit": "Ether hinterlegen",
                 "depositBitcoin": "Ether mit Bitcoin hinterlegen",
@@ -276,7 +276,7 @@
             "title": "Eigene <strong>Token</strong>",
             "subTitle": "Hinzugefügte Token",
             "admin": "__name__ (Admin Seite)",
-            "description": "Token sind Währungen oder Tauschgegenstände, die auf der Ethereum-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen. Sie können Ihren eigenen Token erzeugen, in dem Sie z.B. folgendes <a href=\"http://chriseth.github.io/browser-solidity/?gist=0d1a998d949e26942212\" target=\"_blank\">Beispiel eines Token Vertrags</a> anpassen, oder mehr über <a href=\"https://www.ethereum.org/token#the-code\" target=\"_blank\">Ethereum Token</a> lernen.",
+            "description": "Token sind Währungen oder Tauschgegenstände, die auf der Ubiq-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen. Sie können Ihren eigenen Token erzeugen, in dem Sie z.B. folgendes <a href=\"http://chriseth.github.io/browser-solidity/?gist=0d1a998d949e26942212\" target=\"_blank\">Beispiel eines Token Vertrags</a> anpassen, oder mehr über <a href=\"https://www.ubiqsmart.com/token#the-code\" target=\"_blank\">Ubiq Token</a> lernen.",
             "deleteToken": "Möchten Sie den Token <strong>__token__</strong> von Ihrer Liste entfernen?",
             "addedToken": "__token__ wurde Ihrer Beobachtungsliste hinzugefügt",
             "editedToken": "Token __token__ wurde bearbeitet",
@@ -304,7 +304,7 @@
             "writeToContract": "In Vertrag schreiben",
             "pickContract": "Wähle einen Vertrag",
             "pickFunction": "Wähle eine Funktion",
-            "noContract": "<p>Fügen Sie den Quellcode eines Vertrags hier ein. Beispiele finden Sie unter <a href=\"http://ethereum.org\" target=\"_blank\">ethereum.org</a>: </p> <ul><li><a href=\"http://ethereum.org/token#the-code\" target=\"_blank\">Token erzeugen</a></li><li><a href=\"http://ethereum.org/crowdsale#the-code\" target=\"_blank\">Crowdsale starten</a></li><li><a href=\"http://ethereum.org/dao#the-code\" target=\"_blank\">Blockchain-Organisation erzeugen</a></li></ul>",
+            "noContract": "<p>Fügen Sie den Quellcode eines Vertrags hier ein. Beispiele finden Sie unter <a href=\"http://ubiqsmart.com\" target=\"_blank\">ubiqsmart.com</a>: </p> <ul><li><a href=\"http://ubiqsmart.com/token#the-code\" target=\"_blank\">Token erzeugen</a></li><li><a href=\"http://ubiqsmart.com/crowdsale#the-code\" target=\"_blank\">Crowdsale starten</a></li><li><a href=\"http://ubiqsmart.com/dao#the-code\" target=\"_blank\">Blockchain-Organisation erzeugen</a></li></ul>",
             "buttons": {
                 "showContractInfo": "Zeige Vertragsinformationen",
                 "hideContractInfo": "Schließe Vertragsinformationen",

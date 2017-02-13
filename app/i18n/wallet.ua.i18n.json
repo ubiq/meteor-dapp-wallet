@@ -23,8 +23,8 @@
             "texts": {
                 "note": "Примітка",
                 "balance": "Баланс",
-                "connectionErrorMist": "Не можу з'єднатися. Будь ласка запустить geth використовуючи:<br><br><small><code>__node__</code><br><br>Переконайтеся, що ви встановили IPC шлях за замовчанням, коли використовували інший <code>datadir</code>, наприклад<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/Ethereum/geth.ipc</code><br>або<br><code>geth --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.ethereum/geth.ipc</code>. <br><br>Можна додати: <code>--unlock &lt;yourAccount&gt;.</code></small>",
-                "connectionErrorBrowser": "Не можу з'єднатися. Будьласка запустить geth з такими параметрами:<br><br><small><code>__node__</code><br><br>Можна додати: <code>--unlock &lt;yourAccount&gt;.</code></small>",
+                "connectionErrorMist": "Не можу з'єднатися. Будь ласка запустить gubiq використовуючи:<br><br><small><code>__node__</code><br><br>Переконайтеся, що ви встановили IPC шлях за замовчанням, коли використовували інший <code>datadir</code>, наприклад<br><code>gubiq --datadir ... --ipcpath /Users/&lt;yourUser&gt;/Library/Ubiq/gubiq.ipc</code><br>або<br><code>gubiq --datadir ... --ipcpath /Users/&lt;yourUser&gt;/.ubiq/gubiq.ipc</code>. <br><br>Можна додати: <code>--unlock &lt;yourAccount&gt;.</code></small>",
+                "connectionErrorBrowser": "Не можу з'єднатися. Будьласка запустить gubiq з такими параметрами:<br><br><small><code>__node__</code><br><br>Можна додати: <code>--unlock &lt;yourAccount&gt;.</code></small>",
                 "pendingConfirmationsBadge": "Потрібні підтвердження!",
                 "nodeSyncing": "залишилось __blockDiff__ блоків",
                 "blockReceived": "Новий Блок отримано",
@@ -267,7 +267,7 @@
             "title": "Мої <strong>Купони</strong>",
             "subTitle": "Додати купон",
             "admin": "__name__ (сторінка адміністратора)",
-            "description": "Купони, валюти та інші цінні папери на основі Ефіріума. Для того щоб спостерігати за купонами, чи відправляти їх вам потрібно додати їх адресу в цей перелік. Ви можете додавати власні купони просто налаштувавши <a href=\"http://chriseth.github.io/browser-solidity/?gist=0d1a998d949e26942212\" target=\"_blank\">ці приклади власних купонів</a> або детально вивчивши <a href=\"https://www.ethereum.org/token#the-code\" target=\"_blank\">Ефіріум Купони</a>.",
+            "description": "Купони, валюти та інші цінні папери на основі Ефіріума. Для того щоб спостерігати за купонами, чи відправляти їх вам потрібно додати їх адресу в цей перелік. Ви можете додавати власні купони просто налаштувавши <a href=\"http://chriseth.github.io/browser-solidity/?gist=0d1a998d949e26942212\" target=\"_blank\">ці приклади власних купонів</a> або детально вивчивши <a href=\"https://www.ubiqsmart.com/token#the-code\" target=\"_blank\">Ефіріум Купони</a>.",
             "deleteToken": "Ви дійсно бажаєте видалити купон <strong>__token__</strong> з вашого переліку?",
             "addedToken": "Додати __token__ до вашого переліка",
             "editedToken": "Редагувати купон __token__",
@@ -295,7 +295,7 @@
             "writeToContract": "Писати в контракт",
             "pickContract": "Оберіть контракт",
             "pickFunction": "Оберіть функцію",
-            "noContract": "<p>Помістіть програмний код контракту сюди. Ви можете знайти багато прикладів контрактів на <a href=\"http://ethereum.org\" target=\"_blank\">ethereum.org</a>: </p> <ul><li><a href=\"http://ethereum.org/token#the-code\" target=\"_blank\">Створення купонів</a></li><li><a href=\"http://ethereum.org/crowdsale#the-code\" target=\"_blank\">Почати краудсейл</a></li><li><a href=\"http://ethereum.org/dao#the-code\" target=\"_blank\">Створити організацію на блокчейні</a></li></ul>",
+            "noContract": "<p>Помістіть програмний код контракту сюди. Ви можете знайти багато прикладів контрактів на <a href=\"http://ubiqsmart.com\" target=\"_blank\">ubiqsmart.com</a>: </p> <ul><li><a href=\"http://ubiqsmart.com/token#the-code\" target=\"_blank\">Створення купонів</a></li><li><a href=\"http://ubiqsmart.com/crowdsale#the-code\" target=\"_blank\">Почати краудсейл</a></li><li><a href=\"http://ubiqsmart.com/dao#the-code\" target=\"_blank\">Створити організацію на блокчейні</a></li></ul>",
             "buttons": {
                 "showContractInfo": "Показати інформацію контракту",
                 "hideContractInfo": "Сховати інформацію контракту",
