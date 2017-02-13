@@ -60,9 +60,9 @@
                 <p class="send-info">
                     {{#if $eq (TemplateVar.get "selectedToken") "ether"}}
                         {{#if isEtherUnit}}
-                            {{{i18n 'wallet.send.texts.sendAmount' amount=(dapp_formatBalance (TemplateVar.get "amount") "0,0.[000000000000000000] UNIT" "ether")}}}
+                            {{{i18n 'wallet.send.texts.sendAmount' amount=(dapp_formatBalance (TemplateVar.get "amount") "0,0.[000000000000000000] " "ether")}}} UBQ
                         {{else}}
-                            {{{i18n 'wallet.send.texts.sendAmountEquivalent' amount=(dapp_formatBalance (TemplateVar.get "amount") "0,0.[000000] UNIT") etherAmount=(dapp_formatBalance (TemplateVar.get "amount") "0,0.[000000000000000000] UNIT" "ether")}}}
+                            {{{i18n 'wallet.send.texts.sendAmountEquivalent' amount=(dapp_formatBalance (TemplateVar.get "amount") "0,0.[000000] UNIT") etherAmount=(dapp_formatBalance (TemplateVar.get "amount") "0,0.[000000000000000000] " "ether")}}} UBQ
                         {{/if}}
                         {{TemplateVar.get "dailyLimitText"}}
                     {{else}}
@@ -110,9 +110,9 @@
                         <span class="token-name">Ubiq</span>
                         <span class="balance">
                             {{#if $neq unit 'ether'}}
-                                {{dapp_formatBalance selectedAccount.balance "0,0.00 UNIT"}} ({{dapp_formatBalance selectedAccount.balance "0,0.00[0000000000000000] UNIT" "ether"}})
+                                {{dapp_formatBalance selectedAccount.balance "0,0.00 UNIT"}} ({{dapp_formatBalance selectedAccount.balance "0,0.00[0000000000000000] " "ether"}} UBQ)
                             {{else}}
-                                {{dapp_formatBalance selectedAccount.balance "0,0.00[0000000000000000] UNIT" "ether"}}
+                                {{dapp_formatBalance selectedAccount.balance "0,0.00[0000000000000000] " "ether"}} UBQ
                             {{/if}}
                         </span>
                     </div>
