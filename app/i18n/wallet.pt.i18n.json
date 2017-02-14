@@ -92,7 +92,7 @@
             "walletsDescriptionNotEnoughFunds": "Uma vez que você obtiver ao menos 1 ubiq poderá criar contratos mais sofisticados como carteiras, que podem funcionar como contas conjuntas administradas por diversas contas e ter limites diários de saques. Para criar um contrato ainda mais personalizado, vá na aba  <em>Contratos</em>.",
             "accountsDescription": "Contas são chaves privadas protegidas por uma senha, que podem armazenar ubiq, outras moedas baseadas no ubiq e controlar contratos. Contas não exibem transações recebidas.",
             "buttons": {
-                "deposit": "Depositar Ether",
+                "deposit": "Depositar Ubiq",
                 "depositBitcoin": "Depositar com Bitcoin",
                 "copyAddress": "Copiar endereço",
                 "scanQRCode": "Mostrar código QR",

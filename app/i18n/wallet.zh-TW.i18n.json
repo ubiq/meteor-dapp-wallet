@@ -90,7 +90,7 @@
             "walletsDescriptionNotEnoughFunds": "一旦你有多於 1 ubiq 時你可以創建更成熟的契約。錢包只是一種基本的智能契約，讓你的基金能夠由多個帳戶控制，而且想要的話可以設定每日提款限額來增加安全性。要創建自己的客製化契約，到<em> 契約 </em> 分頁。",
             "accountsDescription": "帳戶由密碼保護，可以儲存 ubiq ，保障基於以太坊的 Token 或貨幣，並且控制契約。帳戶無法顯示進帳中的交易。",
             "buttons": {
-                "deposit": "存入 Ether",
+                "deposit": "存入 Ubiq",
                 "depositBitcoin": "使用 Bitcoin 做存款",
                 "copyAddress": "複製位址",
                 "scanQRCode": "顯示二維條碼",

@@ -88,7 +88,7 @@
             "walletsDescriptionNotEnoughFunds": "１ubiq以上保有しているとより高度な契約ができる様になります。Once you have more than 1 ubiq you can create a more sophisticated contracts. ウォレットはベーシックなスマートコントラクトの一種で、資金をマルチプルアカウントで管理し、セキュリティー増強のためにオプションで１日当たりの引き出し制限することもできます。 カスタムコントラクトを作るには <em> コントラクト </em> タブ",
             "accountsDescription": "アカウントはubiqを保有できる、パスワードで保護されたキーです、イーサリアムベースのトークンかコインを保全しコントラクトを管理します。アカウントは入ってくる取引を表示できません。",
             "buttons": {
-                "deposit": "Etherをデポジット",
+                "deposit": "Ubiqをデポジット",
                 "depositBitcoin": "Bitcoinを使ってデポジット",
                 "copyAddress": "アドレスをコピー",
                 "scanQRCode": "QRコードを表示",

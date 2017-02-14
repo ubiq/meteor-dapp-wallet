@@ -88,7 +88,7 @@
             "walletsDescriptionNotEnoughFunds": "Once you have more than 1 ubiq you can create a more sophisticated contracts. Wallets are one type of basic smart contract, that allows your funds to be controlled by multiple accounts and have an optional daily limit on withdrawals, to increase security.  To create your own custom contracts go to the <em> Contracts </em> tab.",
             "accountsDescription": "Accounts are password protected keys that can hold ubiq, secure ubiq-based tokens or coins and control contracts. Accounts can't display incoming transactions.",
             "buttons": {
-                "deposit": "Deposit Ether",
+                "deposit": "Deposit Ubiq",
                 "depositBitcoin": "Deposit using Bitcoin",
                 "copyAddress": "Copy address",
                 "scanQRCode": "Show QR-Code",
