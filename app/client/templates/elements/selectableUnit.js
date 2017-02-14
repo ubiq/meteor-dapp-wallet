@@ -37,7 +37,7 @@ selectableUnits = [{
     value: 'eur'
 }*/];
 
-
+/*
 // Aprils fool
 if (moment().format('MM-DD')=='04-01') {
     selectableUnits.push({ text: 'SZABO', value: 'szabo'},
@@ -57,7 +57,7 @@ if (moment().format('MM-DD')=='04-01') {
 } else if (moment().format('MM-DD')=='12-26') {
     selectableUnits.push({ text: 'BABBAGE', value: 'babbage'})
 }
-
+*/
 
 Template['elements_selectableUnit'].helpers({
     /**
