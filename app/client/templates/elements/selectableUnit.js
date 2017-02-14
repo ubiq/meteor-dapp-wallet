@@ -19,11 +19,11 @@ The available units
 selectableUnits = [{
     text: 'UBQ',
     value: 'ether'
-},
+}/*,
 {
     text: 'FINNEY', //(µΞ)
     value: 'finney'
-}/*,
+},
 {
     text: 'BTC',
     value: 'btc'
