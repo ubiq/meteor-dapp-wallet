@@ -2,12 +2,15 @@
     <h1>
         {{i18n "wallet.send.sendInfoTitle"}}
         <br>
-        {{dapp_formatBalance amount "0,0.00[000000] UNIT"}}
+
         {{#if $neq unit 'ether'}}
+            {{dapp_formatBalance amount "0,0.00[000000] UNIT"}}
             <br>
             <small>
                 ({{dapp_formatBalance amount "0,0.00[000000] " "ether"}} ubiq)
             </small>
+        {{else}}
+          {{dapp_formatBalance amount "0,0.00[000000] "}} UBQ
         {{/if}}
     </h1>
     <p>

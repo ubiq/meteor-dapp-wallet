@@ -155,10 +155,12 @@
             <div class="col col-12 mobile-full">
                 <h3>{{i18n "commonWords.total"}}</h3>
                 {{#if $eq (TemplateVar.get "selectedToken") "ether"}}
-                    <span class="amount">{{dapp_formatBalance total "0,0.00[0000000000000000] UNIT"}}</span>
                     {{#if $neq unit 'ether'}}
+                        <span class="amount">{{dapp_formatBalance total "0,0.00[0000000000000000] UNIT"}}</span>
                         <br>
                         ({{dapp_formatBalance total "0,0.00[0000000000000000] " "ether"}} UBQ)
+                    {{else}}
+                      <span class="amount">{{dapp_formatBalance total "0,0.00[0000000000000000] "}} UBQ</span>
                     {{/if}}
                 {{else}}
                     <span class="amount">{{tokenTotal}}</span> {{selectedToken.symbol}}
