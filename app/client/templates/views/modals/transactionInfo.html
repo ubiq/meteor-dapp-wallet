@@ -80,7 +80,7 @@
                         <td>{{i18n "wallet.transactions.block"}}</td>
                         <td>
                            {{#if $eq ($.Session.get "network") "main"}}
-                            <a href="http://etherscan.io/block/{{blockHash}}" title="{{blockHash}}" target="_blank" class="dapp-shorten-text">
+                            <a href="https://ubiqscan.io/en/block/{{blockHash}}" title="{{blockHash}}" target="_blank" class="dapp-shorten-text">
                                 {{blockNumber}}
                                 <br>
                                 {{blockHash.substr 0 40}}...
