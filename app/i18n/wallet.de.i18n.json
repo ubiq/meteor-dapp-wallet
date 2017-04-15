@@ -45,7 +45,7 @@
                 "txOriginVulnerabilityAccount": "Dieses Konto ist ein Besitzer eines gefährdeten wallet Vertrag und mit diesem Konto auf böswillige Verträge können Ihre Mappen Mittel gefährden. Rüsten Sie Ihren Geldbeutel, bevor Sie Geschäfte mit diesem Konto zu tun.",
                 "txOriginVulnerabilityPopup": "Wir fanden verwundbar Portemonnaies! Achten Sie darauf, neue Geldbörsen zu implementieren und die Mittel zu bewegen!",
                 "checkThisNow": "Zeigen Sie verwundbar",
-                "checkThisLater": "Später",                
+                "checkThisLater": "Später",
                 "learnMore": "Erfahren Sie mehr zu dieser Sicherheitsanfälligkeit"
             }
         },
@@ -147,7 +147,7 @@
             },
             "error": {
                 "noDataDeployed": "Auf der Vertragsadresse wurden keine Daten veröffentlicht",
-                "outOfGas": "Die Transaktion von __from__ nach __to__ konnte nicht ausgeführt werden."  
+                "outOfGas": "Die Transaktion von __from__ nach __to__ konnte nicht ausgeführt werden."
             },
             "types": {
                 "executeContract": "Vertrag anwenden",
@@ -241,7 +241,7 @@
             "estimatedFee": "Gebühr bestimmen",
             "createContract": "Vertrag erstellen",
             "provideGas": "Gas zur Verfügung stellen",
-            "transactionSent": "Transaktion gesendet",            
+            "transactionSent": "Transaktion gesendet",
             "error": {
                 "emptyWallet": "Das Konto, von dem Sie senden möchten, ist leer.",
                 "notEnoughFunds": "Der Betrag auf Ihrem Konto reicht nicht aus.",
@@ -276,7 +276,7 @@
             "title": "Eigene <strong>Token</strong>",
             "subTitle": "Hinzugefügte Token",
             "admin": "__name__ (Admin Seite)",
-            "description": "Token sind Währungen oder Tauschgegenstände, die auf der Ubiq-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen. Sie können Ihren eigenen Token erzeugen, in dem Sie z.B. folgendes <a href=\"http://chriseth.github.io/browser-solidity/?gist=0d1a998d949e26942212\" target=\"_blank\">Beispiel eines Token Vertrags</a> anpassen, oder mehr über <a href=\"https://www.ubiqsmart.com/token#the-code\" target=\"_blank\">Ubiq Token</a> lernen.",
+            "description": "Token sind Währungen oder Tauschgegenstände, die auf der Ubiq-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen. Sie können Ihren eigenen Token erzeugen, in dem Sie z.B. folgendes <a href=\"https://ubiqsmart.com/token#the-code\" target=\"_blank\">Beispiel eines Token Vertrags</a> anpassen, oder mehr über <a href=\"https://ubiqsmart.com/token\" target=\"_blank\">Ubiq Token</a> lernen.",
             "deleteToken": "Möchten Sie den Token <strong>__token__</strong> von Ihrer Liste entfernen?",
             "addedToken": "__token__ wurde Ihrer Beobachtungsliste hinzugefügt",
             "editedToken": "Token __token__ wurde bearbeitet",

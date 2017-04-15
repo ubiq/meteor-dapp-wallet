@@ -30,7 +30,7 @@
                 "blockReceived": "Novo bloco recebido",
                 "timeSinceBlock": "desde último bloco",
                 "peers": "conexões",
-                "waitingForBlocks": "Aguardando blocos..",                
+                "waitingForBlocks": "Aguardando blocos..",
                 "testnetExplain": "Você está na rede de teste, NÃO ENVIE ethers de verdade para essas contas",
                 "noAccounts": {
                     "title": "Você ainda não tem contas",
@@ -46,7 +46,7 @@
                 "txOriginVulnerabilityAccount": "Essa conta administra uma carteira vulnerável e utiliza-la com contratos maliciosos pode pôr em perigo os seus fundos. Atualize sua carteira antes de fazer quaisquer transações com esta conta.",
                 "txOriginVulnerabilityPopup": "Encontramos carteiras vulneráveis! Certifique-se de implantar novas carteiras e mover os fundos!",
                 "checkThisNow": "Mostre-me agora",
-                "checkThisLater": "Eu vejo depois",                
+                "checkThisLater": "Eu vejo depois",
                 "learnMore": "Saiba mais sobre esta vulnerabilidade"
             }
         },
@@ -281,7 +281,7 @@
             "title": "<strong>Fichas</strong> customizadas",
             "subTitle": "Ficha adicionada",
             "admin": "__name__ (administração)",
-            "description": "Fichas são moedas, fichas colecionáveis ou outros tokens fungíveis construídos na plataforma Ubiq. Para que suas contas possam ver o seu saldo e enviar fichas, é necessário adicionar o endereço do token aqui. Você pode criar sua ficha modificando esse  <a href=\"http://chriseth.github.io/browser-solidity/?gist=0d1a998d949e26942212\" target=\"_blank\">exemplo de ficha</a>. Leia mais sobre isso no nosso tutorial <a href=\"https://www.ubiqsmart.com/token#the-code\" target=\"_blank\">como criar fichas no Ubiq (em inglês)</a>.",
+            "description": "Fichas são moedas, fichas colecionáveis ou outros tokens fungíveis construídos na plataforma Ubiq. Para que suas contas possam ver o seu saldo e enviar fichas, é necessário adicionar o endereço do token aqui. Você pode criar sua ficha modificando esse  <a href=\"https://ubiqsmart.com/token#the-code\" target=\"_blank\">exemplo de ficha</a>. Leia mais sobre isso no nosso tutorial <a href=\"https://ubiqsmart.com/token\" target=\"_blank\">como criar fichas no Ubiq (em inglês)</a>.",
             "deleteToken": "Você quer parar de observar a ficha <strong>__token__</strong>?",
             "addedToken": "Ficha __token__ adicinada na sua lista",
             "editedToken": "Ficha __token__ enviada",

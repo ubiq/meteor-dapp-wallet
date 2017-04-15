@@ -126,7 +126,7 @@
             "amount": "量",
             "gasPrice": "ガスの値段",
             "perMillionGas": " PER MILLION GAS",
-            "gasUsed": "ガス使用量", 
+            "gasUsed": "ガス使用量",
             "feePaid": "支払い金額",
             "data": "データ送信",
             "deployedData": "配備されたデータ",
@@ -145,7 +145,7 @@
             },
             "error": {
                 "noDataDeployed": "アドレス内にデータがありません。",
-                "outOfGas": "トランザクションfrom __from__ to __to__ 正常に実行できませんでした"  
+                "outOfGas": "トランザクションfrom __from__ to __to__ 正常に実行できませんでした"
             },
             "types": {
                 "executeContract": "コントラクト実行",
@@ -168,7 +168,7 @@
                 },
                 "outgoingTransaction": {
                     "title": "支払い送信",
-                    "text": "You send __amount__ from __from__ to __to__."    
+                    "text": "You send __amount__ from __from__ to __to__."
                 },
                 "pendingConfirmation": {
                     "title": "確認して下さい",
@@ -274,7 +274,7 @@
             "title": "カスタム <strong>トークン</strong>",
             "subTitle": "トークンを足す",
             "admin": "__名前__ (admin page)",
-            "description": "トークンはイーサリアムのプラットホーム上に構築された通貨であり、他の代替可能なものです。アカウントがトークンを送るためには、それらのアドレスをリストに追加しなければなりません。次のものを修正することによって簡単に自分のトークンを作ることができます、 <a href=\"http://chriseth.github.io/browser-solidity/?gist=0d1a998d949e26942212\" target=\"_blank\">カスタムトークンコントラクトの例トークン</a> もしくはこちらをもっと学ぶ <a href=\"https://www.ubiqsmart.com/token#the-code\" target=\"_blank\">Ubiq Tokens</a>.",
+            "description": "トークンはイーサリアムのプラットホーム上に構築された通貨であり、他の代替可能なものです。アカウントがトークンを送るためには、それらのアドレスをリストに追加しなければなりません。次のものを修正することによって簡単に自分のトークンを作ることができます、 <a href=\"https://ubiqsmart.com/token#the-code\" target=\"_blank\">カスタムトークンコントラクトの例トークン</a> もしくはこちらをもっと学ぶ <a href=\"https://ubiqsmart.com/token\" target=\"_blank\">Ubiq Tokens</a>.",
             "deleteToken": "トークンを削除しますか<strong>__token__</strong> あなたのリストから",
             "addedToken": "Added __token__ to your watch list",
             "editedToken": "Edited token __token__",
