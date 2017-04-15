@@ -72,12 +72,22 @@
                     <div class="row clear wallet-info">
                         {{#if showDailyLimit}}
                             <div class="col col-4 mobile-full">
-                                {{#if $gte version 1}}
-                                    <h3>{{i18n "wallet.accounts.dailyLimit"}} <span style="font-weight: 200;">{{dapp_formatBalance dailyLimit "0,0.00 unit"}}</span></h3>
-                                    {{dapp_formatBalance availableToday "0,0.00 unit"}} {{i18n "wallet.accounts.dailyLimitRemaining"}}
+                                {{#if $neq unit 'ether'}}
+                                    {{#if $gte version 1}}
+                                        <h3>{{i18n "wallet.accounts.dailyLimit"}} <span style="font-weight: 200;">{{dapp_formatBalance dailyLimit "0,0.00 unit"}}</span></h3>
+                                        {{dapp_formatBalance availableToday "0,0.00 unit"}} {{i18n "wallet.accounts.dailyLimitRemaining"}}
+                                    {{else}}
+                                        <h3>{{i18n "wallet.accounts.dailyLimit"}}</h3>
+                                        {{dapp_formatBalance dailyLimit "0,0.00 unit"}}
+                                    {{/if}}
                                 {{else}}
-                                    <h3>{{i18n "wallet.accounts.dailyLimit"}}</h3>
-                                    {{dapp_formatBalance dailyLimit "0,0.00 unit"}}
+                                    {{#if $gte version 1}}
+                                        <h3>{{i18n "wallet.accounts.dailyLimit"}} <span style="font-weight: 200;">{{dapp_formatBalance dailyLimit "0,0.00 " "ether"}} UBQ</span></h3>
+                                        {{dapp_formatBalance availableToday "0,0.00 " "ether"}} UBQ {{i18n "wallet.accounts.dailyLimitRemaining"}}
+                                    {{else}}
+                                        <h3>{{i18n "wallet.accounts.dailyLimit"}}</h3>
+                                        {{dapp_formatBalance dailyLimit "0,0.00 " "ether"}} UBQ
+                                    {{/if}}
                                 {{/if}}
                             </div>
                         {{/if}}
