@@ -19,23 +19,7 @@ The available units
 selectableUnits = [{
     text: 'UBQ',
     value: 'ether'
-}/*,
-{
-    text: 'FINNEY', //(µΞ)
-    value: 'finney'
-},
-{
-    text: 'BTC',
-    value: 'btc'
-},
-{
-    text: 'USD',
-    value: 'usd'
-},
-{
-    text: 'EUR',
-    value: 'eur'
-}*/];
+}];
 
 /*
 // Aprils fool
@@ -80,6 +64,14 @@ Template['elements_selectableUnit'].helpers({
     */
     'units': function(){
         return selectableUnits;
+    },
+    /**
+    Can select units
+
+    @method (selectedUnit)
+    */
+    'selectable': function(){
+        return Session.get('network') == 'main';
     }
 });
 
