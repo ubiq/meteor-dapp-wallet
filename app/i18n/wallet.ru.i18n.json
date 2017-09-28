@@ -277,7 +277,7 @@
             "title": "Собственные <strong>Жетоны</strong>",
             "subTitle": "Добавить жетоны",
             "admin": "__name__ (страница администратора)",
-            "description": "Жетоны — это валюты и другие ценные бумаги построенные на платформе Ubiq. Для того чтобы видеть жетоны определенного типа, вы должны добавить их адрес в список. Вы можете создать свой личный тип жетонов слегка модифицировав <a href=\"https://ubiqsmart.com/token#the-code\" target=\"_blank\">этот пример простого контракта</a> или детально изучив <a href=\"https://ubiqsmart.com/token\" target=\"_blank\">Жетоны Ubiq</a>.",
+            "description": "Жетоны — это валюты и другие ценные бумаги построенные на платформе Ubiq. Для того чтобы видеть жетоны определенного типа, вы должны добавить их адрес в список.",
             "deleteToken": "Вы действительно хотите удалить жетон <strong>__token__</strong> из вашего списка?",
             "addedToken": "Добавить __token__ в ваш список жетонов",
             "editedToken": "Редактировать жетон __token__",
@@ -305,7 +305,7 @@
             "writeToContract": "Писать в контракт",
             "pickContract": "Выбрать контракт",
             "pickFunction": "Выбрать функцию",
-            "noContract": "<p>Вставьте код контракта сюда. Вы можете найти много примеров контрактов на <a href=\"http://ubiqsmart.com\" target=\"_blank\">ubiqsmart.com</a>: </p> <ul><li><a href=\"http://ubiqsmart.com/token\" target=\"_blank\">Создать жетон</a></li><li><a href=\"http://ubiqsmart.com/crowdsale\" target=\"_blank\">Начать краудсэйл</a></li><li><a href=\"http://ubiqsmart.com/dao\" target=\"_blank\">Создать блокчейн организацию</a></li></ul>",
+            "noContract": "<p>Вставьте код контракта сюда.</p>",
             "buttons": {
                 "showContractInfo": "Показать информацию о контракте",
                 "hideContractInfo": "Спрятать информацию контракта",

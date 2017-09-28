@@ -85,7 +85,7 @@
             "requiredSignatures": "Semnaturi necesare",
             "owners": "Detinatori",
             "walletsDescription": "Acestea sunt contracte ce stocheaza si securizeaza ubiq. Ele pot avea mai multi detinatori si pot pastra intregul jurnal al tranzactiilor.",
-            "walletsDescriptionNotEnoughFunds": "Ai nevoie de cel putin 1 ubiq pentru a implementa contracte mai sofisticate. Portofelele sunt la baza niste contracte inteligente, ce pot fi controlate de mai multi detinatori si chiar se pot seta limite de retragere pentru o mai buna securitate.  Pentru a implementa un contract personalizat, mergi la sectiunea <em> Contracts </em>.",        
+            "walletsDescriptionNotEnoughFunds": "Ai nevoie de cel putin 1 ubiq pentru a implementa contracte mai sofisticate. Portofelele sunt la baza niste contracte inteligente, ce pot fi controlate de mai multi detinatori si chiar se pot seta limite de retragere pentru o mai buna securitate.  Pentru a implementa un contract personalizat, mergi la sectiunea <em> Contracts </em>.",
             "accountsDescription": "Conturile sunt chei securizate prin parola ce pot controla contractele. Conturile pot stoca ubiq dar nu pot lista jurnalul tranzactiilor.",
             "buttons": {
                 "deposit": "Depunere",
@@ -169,7 +169,7 @@
                 },
                 "outgoingTransaction": {
                     "title": "Plata trimisa",
-                    "text": "Ai trimis __amount__ de la __from__ catre __to__."    
+                    "text": "Ai trimis __amount__ de la __from__ catre __to__."
                 },
                 "pendingConfirmation": {
                     "title": "Confirmari necesare",
@@ -275,7 +275,7 @@
             "title": "Monede <strong>Personalizate</strong>",
             "subTitle": "Monede adaugate",
             "admin": "__name__ (pagina de administrare)",
-            "description": "Monedele sunt valute sau alte bunuri fungibile construite pe platforma Ubiq. Pentru a putea urmari sau tranzactiona aceste monede, va trebui sa adaugi adresa lor in aceasta lista. Poti crea propria moneda modificand codul aflat aici: <a href=\"http://chriseth.github.io/browser-solidity/?gist=20c8b5658349b003b08d\" target=\"_blank\">in acest exemplu de contract pentru o moneda personalizata</a> sau afla mai multe aici  <a href=\"https://github.com/ubiq/wiki/wiki/Standardized_Contract_APIs#token\" target=\"_blank\">Standard al Monedelor Personalizate</a>.",
+            "description": "Monedele sunt valute sau alte bunuri fungibile construite pe platforma Ubiq. Pentru a putea urmari sau tranzactiona aceste monede, va trebui sa adaugi adresa lor in aceasta lista.",
             "deleteToken": "Vrei sa stergi aceasta moneda <strong>__token__</strong> din lista ta?",
             "addedToken": " __token__ a fost adaugata in lista ta",
             "editedToken": " __token__ a fost modificat",
@@ -303,7 +303,7 @@
             "writeToContract": "Scrie in contract",
             "pickContract": "Alege un contract",
             "pickFunction": "Alege o functie",
-            "noContract": "<p>Pune aici codul sursa al contractului dorit. Poti gasi mai multe exemple de cotracte aici: <a href=\"http://ubiqsmart.com\" target=\"_blank\">ubiqsmart.com</a>: </p> <ul><li><a href=\"http://ubiqsmart.com/token#the-code\" target=\"_blank\">Implementeaza un token</a></li><li><a href=\"http://ubiqsmart.com/crowdsale#the-code\" target=\"_blank\">Lanseaza o campanie pentru strangere de fonduri</a></li><li><a href=\"http://ubiqsmart.com/dao#the-code\" target=\"_blank\">Implementeaza o organizatie bazata pe blockchain</a></li></ul>",
+            "noContract": "<p>Pune aici codul sursa al contractului dorit.</p>",
             "buttons": {
                 "showContractInfo": "Arata informatii despre contract",
                 "hideContractInfo": "Ascunde informatii despre contract",

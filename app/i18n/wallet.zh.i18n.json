@@ -308,7 +308,7 @@
             "writeToContract": "写入合约",
             "pickContract": "选择合约",
             "pickFunction": "选择函数",
-            "noContract": "<p>在这里填入合约源码。您可以在下列连接中找到合约的范例 <a href=\"http://ubiqsmart.com\" target=\"_blank\">ubiqsmart.com</a>： </p> <ul><li><a href=\"http://ubiqsmart.com/token#the-code\" target=\"_blank\">建立 代币</a></li><li><a href=\"http://ubiqsmart.com/crowdsale#the-code\" target=\"_blank\">启动众筹</a></li><li><a href=\"http://ubiqsmart.com/dao#the-code\" target=\"_blank\">创建区块链组织</a></li></ul>",
+            "noContract": "<p>在这里填入合约源码。</p>",
             "buttons": {
                 "showContractInfo": "显示合约信息",
                 "hideContractInfo": "隐藏合约信息",

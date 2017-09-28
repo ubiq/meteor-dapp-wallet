@@ -277,7 +277,7 @@
             "title": "客製化 <strong>token</strong>",
             "subTitle": "新增 token",
             "admin": "__name__ (管理頁面)",
-            "description": "Tokens 為貨幣或其他基於 Ubiq 平台的代幣。您需要添加 token 位址至此清單以便發送或觀察該 token 。您可以修改 <a href=\"https://ubiqsmart.com/token#the-code\" target=\"_blank\">客製化 token 契約範例</a> 以創建客製化 token，或見 <a href=\"https://ubiqsmart.com/token\" target=\"_blank\">Ubiq Tokens</a> 以深入學習。",
+            "description": "Tokens 為貨幣或其他基於 Ubiq 平台的代幣。您需要添加 token 位址至此清單以便發送或觀察該 token 。",
             "deleteToken": "您確定要從清單中移除 token <strong>__token__</strong> ？",
             "addedToken": "添加 __token__ 至您的觀察清單",
             "editedToken": "編輯 token __token__",
@@ -305,7 +305,7 @@
             "writeToContract": "寫至契約",
             "pickContract": "挑選一契約",
             "pickFunction": "挑選一函式",
-            "noContract": "<p>於此填入契約原始碼。您可於下列連結找到契約範例 <a href=\"http://ubiqsmart.com\" target=\"_blank\">ubiqsmart.com</a>： </p> <ul><li><a href=\"http://ubiqsmart.com/token#the-code\" target=\"_blank\">建立 token</a></li><li><a href=\"http://ubiqsmart.com/crowdsale#the-code\" target=\"_blank\">啟動眾籌</a></li><li><a href=\"http://ubiqsmart.com/dao#the-code\" target=\"_blank\">創建區塊鏈組織</a></li></ul>",
+            "noContract": "<p>於此填入契約原始碼。</p>",
             "buttons": {
                 "showContractInfo": "顯示契約資訊",
                 "hideContractInfo": "隱藏契約資訊",

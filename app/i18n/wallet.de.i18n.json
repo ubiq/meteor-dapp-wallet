@@ -278,7 +278,7 @@
             "title": "Eigene <strong>Token</strong>",
             "subTitle": "Hinzugefügte Token",
             "admin": "__name__ (Admin Seite)",
-            "description": "Token sind Währungen oder Tauschgegenstände, die auf der Ubiq-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen. Sie können Ihren eigenen Token erzeugen, in dem Sie z.B. folgendes <a href=\"https://ubiqsmart.com/token#the-code\" target=\"_blank\">Beispiel eines Token Vertrags</a> anpassen, oder mehr über <a href=\"https://ubiqsmart.com/token\" target=\"_blank\">Ubiq Token</a> lernen.",
+            "description": "Token sind Währungen oder Tauschgegenstände, die auf der Ubiq-Plattform aufsetzen. Damit ein Konto ein Token beobachten oder versenden kann, müssen Sie die Kontoadressen in die folgende Liste einfügen.",
             "deleteToken": "Möchten Sie den Token <strong>__token__</strong> von Ihrer Liste entfernen?",
             "addedToken": "__token__ wurde Ihrer Beobachtungsliste hinzugefügt",
             "editedToken": "Token __token__ wurde bearbeitet",
@@ -306,7 +306,7 @@
             "writeToContract": "In Vertrag schreiben",
             "pickContract": "Wähle einen Vertrag",
             "pickFunction": "Wähle eine Funktion",
-            "noContract": "<p>Fügen Sie den Quellcode eines Vertrags hier ein. Beispiele finden Sie unter <a href=\"http://ubiqsmart.com\" target=\"_blank\">ubiqsmart.com</a>: </p> <ul><li><a href=\"http://ubiqsmart.com/token#the-code\" target=\"_blank\">Token erzeugen</a></li><li><a href=\"http://ubiqsmart.com/crowdsale#the-code\" target=\"_blank\">Crowdsale starten</a></li><li><a href=\"http://ubiqsmart.com/dao#the-code\" target=\"_blank\">Blockchain-Organisation erzeugen</a></li></ul>",
+            "noContract": "<p>Fügen Sie den Quellcode eines Vertrags hier ein.</p>",
             "buttons": {
                 "showContractInfo": "Zeige Vertragsinformationen",
                 "hideContractInfo": "Schließe Vertragsinformationen",
