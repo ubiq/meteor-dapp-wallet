@@ -54,23 +54,23 @@ updateBalances = function() {
     // UPDATE ENS
     var allAccounts = EthAccounts.find().fetch().concat(walletsAndContracts);
     _.each(allAccounts, function(account){
-        
+
         // Only check ENS names every N minutes
         var now = Date.now();
         if (!account.ensCheck || (account.ensCheck && now - account.ensCheck > 10*60*1000)) {
-            Helpers.getENSName(account.address, function(err, name, returnedAddr) {
+            /*Helpers.getENSName(account.address, function(err, name, returnedAddr) {
 
                 if (!err && account.address.toLowerCase() == returnedAddr){
                     EthAccounts.update({address: account.address}, {$set:{ name: name, ens: true, ensCheck: now}});
                     CustomContracts.update({address: account.address}, {$set:{ name: name, ens: true, ensCheck: now}});
                     Wallets.update({address: account.address}, {$set:{ name: name, ens: true, ensCheck: now}});
-                } else {
+                } else {*/
                     EthAccounts.update({address: account.address}, {$set:{ens: false, ensCheck: now}});
                     CustomContracts.update({address: account.address}, {$set:{ens: false, ensCheck: now}});
                     Wallets.update({address: account.address}, {$set:{ens: false, ensCheck: now}});
 
-                }
-            });
+                //}
+            //});
         }
     });
 
