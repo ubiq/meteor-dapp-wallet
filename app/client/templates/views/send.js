@@ -175,7 +175,7 @@ Template['views_send'].onRendered(function(){
     template.autorun(function(c){
 
         address = TemplateVar.getFrom('.dapp-select-account.send-from', 'value');
-        
+
         if (c.firstRun) {
             selectedAddress = address;
             return;
@@ -376,7 +376,7 @@ Template['views_send'].helpers({
     @method (timeText)
     */
     'timeText': function(){
-        return TAPi18n.__('wallet.send.texts.timeTexts.'+ ((Number(TemplateVar.getFrom('.dapp-select-gas-price', 'feeMultiplicator')) + 5) / 2).toFixed(0));
+        return TAPi18n.__('wallet.send.texts.timeTexts.'+ ((Number(TemplateVar.getFrom('.dapp-select-gas-price', 'feeMultiplicator')) + 2) / 2).toFixed(0));
     },
     /**
 
