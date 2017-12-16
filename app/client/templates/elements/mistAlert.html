@@ -1,0 +1,20 @@
+<template name="mist_alert">
+  <div class="alert-banner {{alertViewState}}">
+    <section>
+      <h1> ⚠︎ Warning</h1>
+      <button type="button" class="hide-alert close-button">&times;</button>
+      <p>
+        Due to a vulnerability affecting all released versions of the Fusion beta browser, we urge you for the time being, not to browse untrusted websites with Fusion.
+      </p>
+      <p>
+        <a class="hide-alert button" href="javascript:void(0)">Close this message</a>
+      </p>
+    </section>
+  </div>
+
+  <div class="show-alert alert-bubble {{bubbleViewState}}">
+    <button>
+      <span class="icon-bell"></span>
+    </button>
+  </div>
+</template>

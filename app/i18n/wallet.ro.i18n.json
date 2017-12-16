@@ -85,12 +85,12 @@
             "requiredSignatures": "Semnaturi necesare",
             "owners": "Detinatori",
             "walletsDescription": "Acestea sunt contracte ce stocheaza si securizeaza ubiq. Ele pot avea mai multi detinatori si pot pastra intregul jurnal al tranzactiilor.",
-            "walletsDescriptionNotEnoughFunds": "Ai nevoie de cel putin 1 ubiq pentru a implementa contracte mai sofisticate. Portofelele sunt la baza niste contracte inteligente, ce pot fi controlate de mai multi detinatori si chiar se pot seta limite de retragere pentru o mai buna securitate.  Pentru a implementa un contract personalizat, mergi la sectiunea <em> Contracts </em>.",        
+            "walletsDescriptionNotEnoughFunds": "Ai nevoie de cel putin 1 ubiq pentru a implementa contracte mai sofisticate. Portofelele sunt la baza niste contracte inteligente, ce pot fi controlate de mai multi detinatori si chiar se pot seta limite de retragere pentru o mai buna securitate.  Pentru a implementa un contract personalizat, mergi la sectiunea <em> Contracts </em>.",
             "accountsDescription": "Conturile sunt chei securizate prin parola ce pot controla contractele. Conturile pot stoca ubiq dar nu pot lista jurnalul tranzactiilor.",
             "buttons": {
                 "deposit": "Depunere",
                 "depositBitcoin": "Depunere Bitcoin",
-                "viewOnExplorer": "View on Etherscan",
+                "viewOnExplorer": "View on Ubiqscan",
                 "copyAddress": "Copiaza adresa",
                 "scanQRCode": "Arata QR-Code",
                 "showInterface": "Arata Interfata"
@@ -169,7 +169,7 @@
                 },
                 "outgoingTransaction": {
                     "title": "Plata trimisa",
-                    "text": "Ai trimis __amount__ de la __from__ catre __to__."    
+                    "text": "Ai trimis __amount__ de la __from__ catre __to__."
                 },
                 "pendingConfirmation": {
                     "title": "Confirmari necesare",

@@ -93,7 +93,7 @@
             "buttons": {
                 "deposit": "Ubiq hinterlegen",
                 "depositBitcoin": "Ubiq mit Bitcoin hinterlegen",
-                "viewOnExplorer": "View on Spectrum",
+                "viewOnExplorer": "View on Ubiqscan",
                 "copyAddress": "Adresse kopieren",
                 "scanQRCode": "QR-Code anzeigen",
                 "showInterface": "Interface anzeigen"
