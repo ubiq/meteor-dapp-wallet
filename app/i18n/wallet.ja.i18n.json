@@ -90,7 +90,7 @@
             "buttons": {
                 "deposit": "Ubiqをデポジット",
                 "depositBitcoin": "Bitcoinを使ってデポジット",
-                "viewOnExplorer": "View on Etherscan",
+                "viewOnExplorer": "View on Ubiqscan",
                 "copyAddress": "アドレスをコピー",
                 "scanQRCode": "QRコードを表示",
                 "showInterface": "インターフェイスを表示"

@@ -90,7 +90,7 @@
             "buttons": {
                 "deposit": "Deposit Ubiq",
                 "depositBitcoin": "Deposit using Bitcoin",
-                "viewOnExplorer": "View on Etherscan",
+                "viewOnExplorer": "View on Ubiqscan",
                 "copyAddress": "Copy address",
                 "scanQRCode": "Show QR-Code",
                 "showInterface": "Show Interface"
